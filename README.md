@@ -45,16 +45,8 @@ A titkosítás során figyelembe veszi:
 - az előző titkosított bájtot
 - egy belső kulcsállapotot
 
-# Fordítás
 
-A program GCC fordítóval fordítható.
-
-# Windows alatt:
-gcc titkosito.c -o titkosito.exe
-
-# Linux vagy MacOS alatt:
-gcc titkosito.c -o titkosito
 
 # Program futtatása
-Ha hibát dob amikor le akarjuk fordítani, akkor másoljuk ki a .c fájlból a kódsort és rakjuk át egy másik .c fájlba, és a dokumentum.txt-t is. Amikor futtatni akarjuk a programot, először töltsük le a .ZIP fájl-t, utána nyissuk  meg a titkosito.c fájlt és futassuk a programot, ezek után a dokumentum.txt-ben írt szövegünk egy visszafejtett.txt-ben kapjuk vissza.
+Amikor futtatni akarjuk a programot, először töltsük le a .ZIP fájl-t, utána nyissuk  meg a titkosito.c fájlt és futassuk a programot, ezek után a dokumentum.txt-ben írt szövegünk egy visszafejtett.txt-ben kapjuk vissza.
 A program futtatása után automatikusan létrejönnek a titkosított és visszafejtett fájlok.
